@@ -1,0 +1,400 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 100%;
+}  
+:root{
+    --color-font: #2196F3;
+}
+header{
+    height: 40px;
+    display:inline-flex;
+    flex-wrap: wrap; 
+    
+}
+nav{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background-color: #fff;
+    
+}
+header .telymail{
+   margin-top: 32px;
+   padding-left: 300px;
+   display: flex;
+   
+}
+.telymail a{
+    text-decoration: none;
+    color: #757575;
+    
+}
+.icon-mobile{
+    color: #757575;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.icon-mail2{
+    color: #757575;
+    padding-right: 10px;
+}
+/* mouse over link */
+nav :hover{
+    color: var(--color-font);
+}
+div :hover{
+    color: var(--color-font);
+}
+nav a{
+    text-decoration: none;
+    display: inline;
+    padding-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+#webstudio{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--color-font);
+    padding-left: 120px;
+} 
+.banner{
+    background-color: #2F303A;
+    height: 600px;
+    margin:auto
+}
+.banner h1{
+    width: 696px;
+    padding-left: 362px;
+    padding-top: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+}
+.banner button{
+    margin-left: 577px;
+    width: 261px;
+    height: 50px;
+    margin-top: 30px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: #2196F3;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align:center;
+    letter-spacing: 0.06em;
+}
+button:hover{
+    background-color: #2196F3;
+    color: #fff;
+}
+/*vector*/
+#container_img{
+    width: 270px;
+    height: 120px;
+    margin-top: 82px;
+    margin-left: 120px;
+    background-color: #F5F4FA;
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+#container_img img{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.container_img{
+    width: 270px;
+    height: 120px;
+    margin-left: 25px;
+    margin-top: 82px;
+    background-color: #F5F4FA;
+    display:inline-flex;
+    flex-wrap: wrap;
+}
+.container_img img{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+/* box text*/
+.text{
+   padding-top: 30px;
+   padding-bottom: 94px;
+}
+.text div{
+    width: 270px;
+    display:inline-flex;
+    flex-wrap: wrap; 
+    padding-right: 30px;
+}
+.text .details{
+    padding-left: 120px;
+}
+.text div h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text div p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: auto;
+    padding-top: 10px;
+}
+/* we dedicate title*/
+.dedicate h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-left: 50px;
+}/* dedicate img */
+.dedicate .img1{
+    padding-left: 120px;
+}
+.dedicate img{
+    width: 370px;
+    height: 294px;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding-bottom: 94px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+/* dedicate banner grey */
+.dedicate h4{
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    margin-top: 274px;
+    margin-right: 20px;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-style:normal;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3%;
+}
+/* dedicate subtitele */
+.text_dedicate1{
+    margin-left: 120px;
+}
+/* team */
+.team{
+    background-color: #F5F4FA;;
+}
+.team h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 94px;
+    margin-left: 90px;
+
+}
+/*team picture*/
+#picture{
+    padding-top: 50px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    
+}
+/* team picture box */
+#picture div{
+    margin-right: 37px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 428px;
+    margin-bottom: 94px;
+}
+#picture .andres{
+    margin-left: 120px;
+}
+#picture div h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+}
+#picture div h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+    margin: auto;
+    text-align: center;
+}
+/* regular clint */
+.regular_client{
+    height: 372px;
+    background-color: #E5E5E5;
+}
+.regular_client div{
+    width: 170px;
+    height: 81px;
+    margin-top: 3px;
+    border-radius: 5px;
+    margin-left: 30px;
+    border: 2px solid #AFB1B8;
+}
+.regular_client .clint1{
+    margin-top: 140px;
+    display: inline-flex;
+    justify-content: center;
+}
+.regular_client svg{
+    margin-top: 15px;
+}
+/* footer */
+footer{
+    background-color: #2f303a;
+    height: 252px;
+    display: flex;
+}
+footer .contacto{
+    padding-top: 60px;
+    position: absolute;
+}
+footer div a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    padding-left: 120px;
+}
+footer .contacto address{
+    color: #ececec;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 00.03em;
+    color: #fff;
+    padding-left: 120px;
+}
+footer .contacto span{
+    padding-left: 156px;
+    color: #fff;    
+}
+/*social red*/
+footer .circle1{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 416px;
+    margin-top: 111px;
+}
+footer .circle{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 111px;
+    margin-left: 10px;
+}
+
+.icon-instagram{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    height: 44px;
+    margin-top: 121px;
+    margin-left: 427px;
+    font-size: 22px;
+}
+.icon-twitter{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    height: 44px;
+    margin-top: 121px;
+    margin-left: 480px;
+    font-size: 22px;
+}
+.icon-facebook{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    height: 44px;
+    margin-top: 121px;
+    margin-left: 535px;
+    font-size: 22px
+}
+.icon-linkedin2{
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    height: 44px;
+    margin-top: 121px;
+    margin-left: 589px;
+    font-size: 22px
+}
+.circle:hover{
+    background-color: #2196F3;
+}
+.circle1:hover{
+    background-color: #2196F3;
+}
